@@ -14,13 +14,13 @@ def first_challenge
           :age => "15",
           :status => "Alive"
         },
-        :hero_friends {
-          :friend_1 => {
+        :hero_friends []
+          {
             :name => "Benvolio",
             :age => "17",
             :attitude => "worried"
           },
-          :friend_2 => {
+          {
             :name => "Mercutio",
             :age => "18",
             :attitude => "hot-headed"
