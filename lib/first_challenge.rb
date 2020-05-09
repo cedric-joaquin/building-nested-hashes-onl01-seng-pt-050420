@@ -14,7 +14,18 @@ def first_challenge
           :age => "15",
           :status => "Alive"
         },
-        :hero_friends {}
+        :hero_friends {
+          :friend_1 => {
+            :name => "Benvolio",
+            :age => "17",
+            :attitude => "worried"
+          },
+          :friend_2 => {
+            :name => "Mercutio",
+            :age => "18",
+            :attitude => "hot-headed"
+          }
+        }
       },
       :capulets => {
         :patriarch => {
@@ -30,7 +41,17 @@ def first_challenge
           :age => "15",
           :status => "Alive"
         },
-        :heroine_friends => {}
+        :heroine_friends => {
+          :friend_1 => {
+            :name => "Steven",
+            :age => "30",
+            :attitude => "confused"
+        },
+          :friend_2 => {
+            :name => "Nurse"
+            :age => "44"
+            :attitude => "worried"
+          }
       }
    }
 end
